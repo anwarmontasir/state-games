@@ -18,7 +18,7 @@ export default class Player extends Component {
     return (
       <div className="player">
         {editing ?
-          <input value={player.name} onChange={({ target })} => onNameChange(target.value)} /> :
+          <input value={player.name} onChange={({ target }) => onNameChange(target.value)} /> :
           <span>{player.name}</span>
         }
         &nbsp;
