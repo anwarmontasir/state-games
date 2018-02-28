@@ -30,7 +30,7 @@ export default class App extends Component {
 
     const { room, player } = this.state;
     const index = room.items.indexOf(item);
-    rooms.items.splice(index, 1);
+    room.items.splice(index, 1);
     player.inventory.push(item);
 
     this.setState({

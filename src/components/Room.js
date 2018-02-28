@@ -30,6 +30,6 @@ export default class Room extends Component {
         </ul>
         {action && <p className="action">{action}</p>}
       </div>
-    )
+    );
   }
 }
